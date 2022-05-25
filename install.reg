@@ -1,0 +1,218 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{BEA218D2-6950-497B-9434-61683EC065FE}]
+
+[HKEY_CLASSES_ROOT\CLSID\{BEA218D2-6950-497B-9434-61683EC065FE}\InprocServer32]
+@="C:\\python\\pylauncher\\pyshellext.amd64.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\.py]
+@="Python.File"
+"Content Type"="text/plain"
+
+[HKEY_CLASSES_ROOT\.pyc]
+@="Python.CompiledFile"
+
+[HKEY_CLASSES_ROOT\.pyd]
+@="Python.Extension"
+
+[HKEY_CLASSES_ROOT\.pyo]
+@="Python.CompiledFile"
+
+[HKEY_CLASSES_ROOT\.pyw]
+@="Python.NoConFile"
+"Content Type"="text/plain"
+
+[HKEY_CLASSES_ROOT\.pyz]
+@="Python.ArchiveFile"
+"Content Type"="application/x-zip-compressed"
+
+[HKEY_CLASSES_ROOT\.pyzw]
+@="Python.NoConArchiveFile"
+"Content Type"="application/x-zip-compressed"
+
+[HKEY_CLASSES_ROOT\Python.ArchiveFile]
+@="Python Zip Application File"
+
+[HKEY_CLASSES_ROOT\Python.ArchiveFile\DefaultIcon]
+@="\"C:\\python\\pylauncher\\py.exe\",5"
+
+[HKEY_CLASSES_ROOT\Python.ArchiveFile\shell]
+
+[HKEY_CLASSES_ROOT\Python.ArchiveFile\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.ArchiveFile\shell\open\command]
+@="\"C:\\python\\pylauncher\\py.exe\" \"%L\" %*"
+
+[HKEY_CLASSES_ROOT\Python.ArchiveFile\shellex]
+
+[HKEY_CLASSES_ROOT\Python.ArchiveFile\shellex\DropHandler]
+@="{BEA218D2-6950-497B-9434-61683EC065FE}"
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile]
+@="Compiled Python File"
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\DefaultIcon]
+@="\"C:\\python\\pylauncher\\py.exe\",2"
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shell]
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shell\open\command]
+@="\"C:\\python\\pylauncher\\py.exe\" \"%L\" %*"
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shellex]
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shellex\DropHandler]
+@="{BEA218D2-6950-497B-9434-61683EC065FE}"
+
+[HKEY_CLASSES_ROOT\Python.Extension]
+@="Python Extension Module"
+
+[HKEY_CLASSES_ROOT\Python.Extension\DefaultIcon]
+@="\"C:\\python\\pylauncher\\py.exe\",3"
+
+[HKEY_CLASSES_ROOT\Python.File]
+@="Python File"
+
+[HKEY_CLASSES_ROOT\Python.File\DefaultIcon]
+@="\"C:\\python\\pylauncher\\py.exe\",1"
+
+[HKEY_CLASSES_ROOT\Python.File\shell]
+
+[HKEY_CLASSES_ROOT\Python.File\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.File\shell\open\command]
+@="\"C:\\python\\pylauncher\\py.exe\" \"%L\" %*"
+
+[HKEY_CLASSES_ROOT\Python.File\shellex]
+
+[HKEY_CLASSES_ROOT\Python.File\shellex\DropHandler]
+@="{BEA218D2-6950-497B-9434-61683EC065FE}"
+
+[HKEY_CLASSES_ROOT\Python.NoConArchiveFile]
+@="Python Zip Application File (no console)"
+
+[HKEY_CLASSES_ROOT\Python.NoConArchiveFile\DefaultIcon]
+@="\"C:\\python\\pylauncher\\py.exe\",5"
+
+[HKEY_CLASSES_ROOT\Python.NoConArchiveFile\shell]
+
+[HKEY_CLASSES_ROOT\Python.NoConArchiveFile\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.NoConArchiveFile\shell\open\command]
+@="\"C:\\python\\pylauncher\\pyw.exe\" \"%L\" %*"
+
+[HKEY_CLASSES_ROOT\Python.NoConArchiveFile\shellex]
+
+[HKEY_CLASSES_ROOT\Python.NoConArchiveFile\shellex\DropHandler]
+@="{BEA218D2-6950-497B-9434-61683EC065FE}"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile]
+@="Python File (no console)"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\DefaultIcon]
+@="\"C:\\python\\pylauncher\\py.exe\",1"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell]
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell\open\command]
+@="\"C:\\python\\pylauncher\\pyw.exe\" \"%L\" %*"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shellex]
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shellex\DropHandler]
+@="{BEA218D2-6950-497B-9434-61683EC065FE}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore]
+"DisplayName"="Python Software Foundation"
+"SupportUrl"="http://www.python.org/"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\2.7]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\2.7\InstallPath]
+@="C:\\python\\python27-64\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\2.7\InstallPath\InstallGroup]
+@="Python 2.7"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\2.7\Modules]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\2.7\PythonPath]
+@="C:\\python\\python27-64\\Lib;C:\\python\\python27-64\\DLLs"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\3.8]
+"DisplayName"="Python 3.8 (64-bit)"
+"SupportUrl"="http://www.python.org/"
+"Version"="3.8.10"
+"SysVersion"="3.8"
+"SysArchitecture"="64bit"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\3.8\InstalledFeatures]
+"dev"="3.8.10150.0"
+"Shortcuts"="3.8.10150.0"
+"exe"="3.8.10150.0"
+"lib"="3.8.10150.0"
+"tools"="3.8.10150.0"
+"pip"="3.8.10150.0"
+"path"="3.8.10150.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\3.8\InstallPath]
+@="C:\\python\\python38-64\\"
+"ExecutablePath"="C:\\python\\python38-64\\python.exe"
+"WindowedExecutablePath"="C:\\python\\python38-64\\pythonw.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\3.8\PythonPath]
+@="C:\\python\\python38-64\\Lib\\;C:\\python\\python38-64\\DLLs\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PyLauncher]
+"InstallDir"="C:\\python\\pylauncher\\"
+"AssociateFiles"=dword:00000001
+@="C:\\python\\pylauncher\\py.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore]
+"DisplayName"="Python Software Foundation"
+"SupportUrl"="http://www.python.org/"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\2.7]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\2.7\InstallPath]
+@="C:\\python\\python27-32\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\2.7\InstallPath\InstallGroup]
+@="Python 2.7"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\2.7\Modules]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\2.7\PythonPath]
+@="C:\\python\\python27-32\\Lib;C:\\python\\python27-32\\DLLs"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\3.8-32]
+"DisplayName"="Python 3.8 (32-bit)"
+"SupportUrl"="http://www.python.org/"
+"Version"="3.8.10"
+"SysVersion"="3.8"
+"SysArchitecture"="32bit"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\3.8-32\InstalledFeatures]
+"dev"="3.8.10150.0"
+"Shortcuts"="3.8.10150.0"
+"exe"="3.8.10150.0"
+"lib"="3.8.10150.0"
+"tools"="3.8.10150.0"
+"pip"="3.8.10150.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\3.8-32\InstallPath]
+@="C:\\python\\python38-32\\"
+"ExecutablePath"="C:\\python\\python38-32\\python.exe"
+"WindowedExecutablePath"="C:\\python\\python38-32\\pythonw.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Python\PythonCore\3.8-32\PythonPath]
+@="C:\\python\\python38-32\\Lib\\;C:\\python\\python38-32\\DLLs\\"

@@ -1,0 +1,44 @@
+1 ICON "Icon_1.ico"
+
+2 ICON "Icon_2.ico"
+
+3 ICON "Icon_3.ico"
+
+4 ICON "Icon_4.ico"
+
+5 ICON "Icon_5.ico"
+
+6 ICON "Icon_6.ico"
+
+7 ICON "Icon_7.ico"
+
+
+1 VERSIONINFO
+FILEVERSION 3,8,10150,1013
+PRODUCTVERSION 3,8,10150,1013
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "000004b0"
+	{
+		VALUE "CompanyName", "Python Software Foundation"
+		VALUE "FileDescription", "Python"
+		VALUE "FileVersion", "3.8.10"
+		VALUE "InternalName", "Python Launcher"
+		VALUE "LegalCopyright", "Copyright © 2001-2021 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC."
+		VALUE "OriginalFilename", "py.exe"
+		VALUE "ProductName", "Python"
+		VALUE "ProductVersion", "3.8.10"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0000 0x04B0
+}
+}
+
+1 24 "Data_1.bin"
+
