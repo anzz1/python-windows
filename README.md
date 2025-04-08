@@ -26,7 +26,7 @@ Python 2.7.18 x86 &nbsp;&nbsp;&nbsp;&nbsp; (v2.7.18:8d21aa21f2, Apr 20 2020, 13:
 | --- | --- |
 | `py` / `python` / `python3` | Launch the latest Python 3.x 64-bit version (Console) |
 | `pyw` / `pythonw`  | Launch the latest Python 3.x 64-bit version (Non-console / "Win32") |
-| `python2`  | Launch the latest Python 3.x 64-bit version (Console) |
+| `python2`  | Launch the latest Python 2.x 64-bit version (Console) |
 
 #### With arguments
 | Argument | Description |
